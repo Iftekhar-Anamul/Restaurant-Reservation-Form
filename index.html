@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Reservation Form</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+    <form action="" method="post">
+        <h1>Restaurant Reservation Form</h1>
+        <!-- Name -->
+        <label for="">Name</label>
+        <br>
+        <!-- first -->
+        <input type="text" placeholder="First" name=" firstName">
+        <!-- last -->
+        <input type="text" placeholder="Last" name=" lastName" id="last">
+        <br>
+        <!-- email and phone -->
+         <div class="email-phone">
+            <!-- Email -->
+            <div class="email">
+                <label for="">Email</label>
+                <br>
+                <input type="email" placeholder="email" name="email">
+            </div>
+            <div class="phone">
+                <!-- phone -->
+                <label for="">Phone</label>
+                <br>
+                <input type="text" placeholder="### ### ####" name="phone">
+            </div>   
+        </div>
+        <!-- date and time -->
+         <div class="date-time">
+            <!-- reservation date -->
+            <div class="date">
+                <label for="">Reservation Date</label>
+                <br>
+                <input type="date" placeholder="MM/DD/YY" name="phone">
+            </div>
+            <!-- reservation time -->
+             <div class="time">
+                <label for="">Reservation Time</label>
+                <br>
+                <input type="time" placeholder="HH:MM:SS" name="time">
+             </div>
+         </div>
+         <!-- how many  -->
+          <label for="">How many person will you be with?</label>
+          <br>
+          <input type="text" placeholder="" name="howMany" id="how-many">
+          <br>
+          <!-- notes/textarea -->
+           <label for="">Notes</label>
+           <br>
+           <textarea rows="5" cols="40" name="textarea"></textarea>
+           <!-- button -->
+            <button>SEND</button>
+    </form>
+</body>
+</html>
